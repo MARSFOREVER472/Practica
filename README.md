@@ -1,2 +1,2 @@
 # _Practica_
-Algunos retos de los que he aprendido anteriormente con Bootstrap 5!
+_Algunos retos de los que he aprendido anteriormente con Bootstrap 5!_
