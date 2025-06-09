@@ -13,32 +13,63 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th>Name</th>
-                            <th>Age</th>
-                            <th>Country</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Marcelo</td>
-                            <td>27</td>
-                            <td>Chile</td>
-                        </tr>
-                        <tr>
-                            <td>Persona 1</td>
-                            <td>28</td>
-                            <td>Chile</td>
-                        </tr>
-                        <tr>
-                            <td>Persona 2</td>
-                            <td>27</td>
-                            <td>Chile</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <!-- Colores -->
+                <!-- Tenemos variantes disponibles para toda la tabla, toda una fila, o incluso una celda -->
+                <!--
+                     .table-primary
+                     .table-secondary
+                     .table-success
+                     .table-danger
+                     .table-warning
+                     .table-info
+
+                     .table-light
+                     .table-dark
+                     -->
+
+                <!-- Clases de Tablas -->
+                <!-- Estas clases también están disponibles para los diferentes colores -->
+                <!-- 
+                     .table-striped - Colorea en formato "zebra" para una mejor lectura.
+                     .table-hover - Colorea las filas al pasar el cursor por toda la tabla.
+                     .table-bordered - Agrega bordes a la tabla.
+                     .border-danger - Colorea el borde.
+                     .table-borderless - Quita los bordes.
+                     .table-sm - Éste hace una tabla más compacta quitándole el padding a las celdas.
+                -->
+
+                <!-- Tabla Responsive -->
+                <!-- Podemos encerrar la tabla mediante un "div" con la clase .table-responsive para poder hacerla más responsive.-->
+
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover table-sm table-bordered">
+                        <caption>Friend-List</caption>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Age</th>
+                                <th>Country</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Marcelo</td>
+                                <td>27</td>
+                                <td>Chile</td>
+                            </tr>
+                            <tr class="table-info">
+                                <td>Persona 1</td>
+                                <td class="table-active">28</td>
+                                <td>Chile</td>
+                            </tr>
+                            <tr>
+                                <td>Persona 2</td>
+                                <td>27</td>
+                                <td>Chile</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
